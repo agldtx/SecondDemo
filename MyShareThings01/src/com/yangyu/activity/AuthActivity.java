@@ -42,7 +42,7 @@ public class AuthActivity extends Activity implements Callback, OnClickListener,
 		setContentView(R.layout.activity_auth);
 		
 		initView();
-		
+		System.out.println("");
 		initData();
 	}
 
